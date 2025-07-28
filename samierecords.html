@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samie Records</title>
+    <link rel="stylesheet" href="style/main-page.css" />
+    <link rel="stylesheet" href="style/headers.css" />
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body class="parent">
+    <div>
+      <script>
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+      </script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <div class="welcome">Welcome To Our Store!</div>
+
+      <div class="sidebar">
+        <a onclick="hideSidebar()" href="#"
+          ><img class="close" src="icons/Closs2.png" alt=""
+        /></a>
+        <nav>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sample Packs</a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign-up</a></li>
+        </nav>
+      </div>
+
+      <div class="bar-container-flexbox">
+        <div class="left">
+          <img class="profile-logo" src="icons/logo.png" alt="" />
+
+          <ul class="ul">
+            <li class="HideOnMobile"><a href="#">Home</a></li>
+            <li class="HideOnMobile"><a href="#">Sample Packs</a></li>
+            <li class="HideOnMobile"><a href="#">Tutorials</a></li>
+            <li class="HideOnMobile"><a href="#">Contact</a></li>
+            <li class="HideOnMobile"><a href="#">Sign-up</a></li>
+          </ul>
+
+          <input class="search-bar" type="search" placeholder="Search assets" />
+          <a href="#">
+            <button class="search-button">
+              <img class="search-icons" src="icons/search.png" /></button
+          ></a>
+
+          <a href="pages/sign-in.html"
+            ><img
+              class="icons-contact"
+              src="icons/contact mail.png"
+              alt="contact us"
+          /></a>
+          <a href="pages/continue-shopping.html"
+            ><img class="icons-shop" src="icons/shop.png" alt="shopping"
+          /></a>
+
+          <a onclick="showSidebar()" href="#">
+            <img class="menu" src="icons/menu2.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <img class="banner" src="banner/banner image.jpg" alt="" />
+
+      <h1 class="exlpore-more">Explore More</h1>
+
+      <div class="image-container">
+        <div class="picure-1">
+          <img class="image-edge-curve1" src="images/dp 3.jpg" width="100%" />
+        </div>
+
+        <div class="picure-2">
+          <img class="image-edge-curve2" src="images/pic 4.jpg" width="100%" />
+        </div>
+        <div class="picure-3">
+          <img class="image-edge-curve3" src="images/samie.jpg" width="100%" />
+        </div>
+
+        <div class="picure-4">
+          <img class="image-edge-curve4" src="images/pic 1.jpg" width="100%" />
+        </div>
+      </div>
+
+      <h1 class="reels">Reels</h1>
+      <div>
+        <p class="get-the-inspiration">
+          Get the inspiration you need and boost your creativity
+        </p>
+      </div>
+      <div class="more-reels-container">
+        <a href="morereals-pg1.html">
+          <p class="more-reels">Check More Reels &gt;</p>
+        </a>
+      </div>
+
+      <div class="reel-frame">
+        <div class="video-container">
+          <video
+            loop=""
+            muted=""
+            autoplay=""
+            controls=""
+            src="videos/C-1.mp4"
+            width="100%"></video>
+        </div>
+
+        <div class="video-container2">
+          <video
+            loop=""
+            muted=""
+            autoplay=""
+            controls=""
+            src="videos/C-2.mp4"
+            width="100%"></video>
+        </div>
+
+        <div class="video-container3">
+          <video
+            loop=""
+            muted=""
+            autoplay=""
+            controls=""
+            src="videos/Short - B - 49.mp4"
+            width="100%"></video>
+        </div>
+
+        <div class="video-container4">
+          <video
+            loop=""
+            muted=""
+            autoplay=""
+            controls=""
+            src="videos/Short - B - 51.mp4"
+            width="100%"></video>
+        </div>
+
+        <div class="video-container5">
+          <video
+            loop=""
+            muted=""
+            autoplay=""
+            controls=""
+            src="videos/Short - B - 53.mp4"
+            width="100%"></video>
+        </div>
+      </div>
+
+      <div class="top-picks">Top Picks</div>
+
+      <div class="box-container">
+        <div class="box-1">
+          <img class="box-1-image" src="images/BG.png" />
+          <img class="image-icon" src="images/soft box 1.png" />
+
+          <p class="Afro-Synergy">Afro Synergy</p>
+          <div class="amount">
+            <p class="before">&#36;100.00 USD</p>
+            <p class="after">&#36;40.00 USD</p>
+          </div>
+        </div>
+
+        <div class="box-2">
+          <img class="box-2-image" src="images/BG-3.png" />
+          <img class="image-icon2" src="images/soft box 1.png" />
+
+          <div class="Afro-Synergy">Afro Gasm</div>
+          <div class="amount">
+            <div class="before">&#36;40.00 USD</div>
+            <div class="after">&#36;20.00 USD</div>
+          </div>
+        </div>
+
+        <div class="box-3">
+          <img class="box-3-image" src="images/BG.png" />
+          <img class="image-icon3" src="images/soft box 2.png" />
+
+          <div class="Afro-Synergy">Afro Gasm 2</div>
+          <div class="amount">
+            <div class="before">&#36;40.00 USD</div>
+            <div class="after">&#36;20.00 USD</div>
+          </div>
+        </div>
+
+        <div class="box-4">
+          <img class="box-4-image" src="images/BG-3.png" />
+          <img class="image-icon4" src="images/soft box 2.png" />
+
+          <div class="Afro-Synergy">Afro Gasm 4</div>
+          <div class="amount">
+            <div class="before">&#36;35.00 USD</div>
+            <div class="after">&#36;20.00 USD</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Mixing-price-container">
+        <h1 class="mixing">Our Prices</h1>
+      </div>
+
+      <div class="grid-wrapper">
+        <div class="one">
+          <div class="sec1-wrapper">
+            <h1 class="price-head">Premium</h1>
+            <p class="MS">
+              Professional Mixing And Mastering Of Up To 20 Stems. Delivered In
+              High-quality WAV And MP3 Formats.
+            </p>
+            <p class="lowest-price">&#36;50</p>
+            <p class="delivery">4-Day Delivery.</p>
+            <p class="unlimited">Unlimited Revisions.</p>
+            <a href="#"><button class="Choose-plan">Choose Plan</button></a>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Mixing</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Mastering</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;20 Tracks</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;1 Song</p>
+          </div>
+        </div>
+        <div class="two">
+          <div class="sec1-wrapper">
+            <h1 class="price-head">Premium</h1>
+            <p class="MS">For A Complete Single Song Beat Production.</p>
+            <p class="lowest-price">&#36;100</p>
+            <p class="delivery">4-Day Delivery.</p>
+            <p class="unlimited">Unlimited Revisions.</p>
+            <a href="#"><button class="Choose-plan">Choose Plan</button></a>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Mixing</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Mastering</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Complete Stems</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;1 Song</p>
+          </div>
+        </div>
+        <div class="three">
+          <div class="sec1-wrapper">
+            <h1 class="price-head">Premium</h1>
+            <p class="MS">For A Complete Single Track Vocal Recording Only.</p>
+            <p class="lowest-price">&#36;45</p>
+            <p class="delivery">1-Day Delivery.</p>
+            <p class="unlimited">Unlimited Revisions.</p>
+            <a href="#"><button class="Choose-plan">Choose Plan</button></a>
+            <p class="mx">&#10060; &nbsp;&nbsp;&nbsp;Mixing</p>
+            <p class="mx">&#10060; &nbsp;&nbsp;&nbsp;Mastering</p>
+            <p class="mx">&#10060; &nbsp;&nbsp;&nbsp;20 Tracks</p>
+            <p class="mx">&#10003; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;1 Song</p>
+          </div>
+        </div>
+        <div class="four">
+          <div class="sec1-wrapper">
+            <h1 class="price-head">Premium</h1>
+            <p class="MS">For A Complete Single Track.</p>
+            <p class="lowest-price">&#36;150</p>
+            <p class="delivery">4-Day Delivery.</p>
+            <p class="unlimited">Unlimited Revisions.</p>
+            <a href="#"><button class="Choose-plan">Choose Plan</button></a>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Mixing</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;Mastering</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;50 Tracks</p>
+            <p class="mx">&nbsp;&#10003; &nbsp;&nbsp;&nbsp;1 Song</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ending-page">
+        <div class="mix-row-4">
+          <h1 class="abt">About</h1>
+          <p class="about-samie">
+            Hi, I’m Kolawole Samuel Adewalure - a passionate music producer and
+            mixing engineer based in Lagos, Nigeria. Since 2020, I’ve been
+            working full-time as a freelance producer/mixing enginer, and I
+            truly consider it my dream job.
+          </p>
+
+          <p class="forme">
+            For me, mixing and mastering go far beyond just balancing
+            frequencies, levels, and compression. It’s about sculpting sound
+            with nuance — using reverbs, resonances, and touches of analog
+            warmth to bring out clarity, emotion, and energy in every track.
+          </p>
+
+          <p class="Brought">Brought to you by Samie Records &#9827;</p>
+          <p class="Copyright">
+            Copyright &#169; 2025 Samie Records ♦ All Rights Reserved.
+          </p>
+          <div class="social-media">
+            <a
+              class="tiktok"
+              href="https://www.tiktok.com/@samierecords?lang=en"
+              target="_blank"
+              ><ion-icon name="logo-tiktok"></ion-icon
+            ></a>
+            <a
+              class="instagram"
+              href="https://www.instagram.com/kolawolesamuel_/"
+              target="_blank"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+            <a
+              class="facebook"
+              href="https://web.facebook.com/profile.php?id=100082840788952"
+              target="_blank"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+            <a
+              class="youtube"
+              href="https://www.youtube.com/@samierecords/shorts"
+              target="_blank"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

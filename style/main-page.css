@@ -1,0 +1,844 @@
+.banner {
+  width: 100%;
+  margin-top: 110px;
+}
+
+.exlpore-more {
+  font-size: 80px;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 110px;
+  margin-bottom: 120px;
+  color: black;
+}
+
+.image-container {
+  display: flex;
+}
+
+.picure-1,
+.picure-2,
+.picure-3,
+.picure-4 {
+  width: 355px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: 0.45s;
+}
+
+.image-edge-curve1,
+.image-edge-curve2,
+.image-edge-curve3,
+.image-edge-curve4 {
+  border-radius: 20px;
+}
+
+.picure-1:hover,
+.picure-2:hover,
+.picure-3:hover,
+.picure-4:hover {
+  width: 380px;
+}
+
+.reel-frame {
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.video-container,
+.video-container2,
+.video-container3,
+.video-container4,
+.video-container5,
+.video-container6 {
+  width: 15%;
+  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  transition: 0.45s;
+}
+
+.video-container:hover,
+.video-container2:hover,
+.video-container3:hover,
+.video-container4:hover,
+.video-container5:hover,
+.video-container6:hover {
+  width: 16%;
+}
+
+.reels-m {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  color: white;
+}
+
+.total-reels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
+}
+.elevate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.reels {
+  padding-left: 100px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  color: black;
+}
+
+.get-the-inspiration {
+  padding-left: 100px;
+  font-size: 14px;
+  width: 180px;
+  margin-bottom: 30px;
+}
+
+.more-reels-container a {
+  text-decoration: none;
+}
+
+.more-reels {
+  font-size: 14px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 1s;
+  color: white;
+  background-color: #e53e29;
+}
+
+.more-reels {
+  margin-left: 100px;
+  font-size: 14px;
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+.more-reels a {
+  text-decoration: no;
+}
+.more-reels:hover {
+  color: black;
+  background-color: white;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.top-picks {
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: -10px;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.box-container {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  flex-wrap: nowrap;
+  margin-bottom: 200px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  color: white;
+  height: 270px;
+  width: 270px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  margin-top: -50px;
+}
+
+.box-1-image,
+.box-2-image,
+.box-3-image,
+.box-4-image {
+  width: 100%;
+}
+
+.image-icon,
+.image-icon2,
+.image-icon3,
+.image-icon4 {
+  width: 95%;
+  position: absolute;
+  left: 0;
+  transition: 0.35s;
+}
+
+.image-icon:hover,
+.image-icon2:hover,
+.image-icon3:hover,
+.image-icon4:hover {
+  width: 100%;
+}
+
+.Afro-Synergy {
+  font-size: 12px;
+  margin-left: 0px;
+  cursor: pointer;
+  width: 100px;
+  color: black;
+  position: absolute;
+}
+
+.Afro-Synergy:hover {
+  text-decoration: underline;
+}
+
+.amount {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  cursor: pointer;
+  max-width: 250px;
+  margin-left: 0px;
+  color: black;
+  position: absolute;
+}
+
+.before {
+  font-size: 12px;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.after {
+  font-size: 17px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.Mixing-container {
+  height: 850px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.mix-row-2 {
+  flex: 1;
+  background: linear-gradient(#ffdad5, #fff7f9);
+  padding-left: 300px;
+  padding-top: 120px;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  background-color: rgb(110, 21, 193);
+}
+
+.sec1-wrapper {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid white;
+  margin-bottom: 80px;
+  display: grid;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.Mixing-price-container {
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 0;
+  height: 90px;
+  justify-content: center;
+  display: grid;
+  background-color: rgb(110, 21, 193);
+}
+
+.mixing {
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.mixing::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.mixing:hover::after {
+  width: 75%;
+}
+.price-head {
+  color: white;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.MS {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.lowest-price {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.delivery {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-bottom: -12px;
+}
+
+.unlimited {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.mx {
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: -30px;
+  margin-bottom: 5px;
+  padding-bottom: 17px;
+}
+.clock {
+  width: 20px;
+}
+
+.Choose-plan {
+  margin-bottom: 40px;
+  background-color: transparent;
+  width: 150px;
+  margin-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  font-size: 16px;
+}
+
+.Choose-plan:hover {
+  color: rgb(110, 21, 193);
+  background-color: white;
+}
+
+.Choose-plan:active {
+  font-weight: 16px;
+}
+
+.price-list {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.git {
+  cursor: pointer;
+}
+
+.ending-page {
+  background-color: rgb(18, 18, 18);
+  height: 450px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.mix-row-4 {
+  flex: 1;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.abt {
+  background: linear-gradient(270deg, #ff994f, #fa6a86);
+  width: 100px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-right: 3px;
+  padding-top: 1px;
+  margin-top: 30px;
+  margin-left: 800px;
+}
+
+.about-samie {
+  width: 450px;
+  height: 100px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 800px;
+}
+
+.forme {
+  width: 450px;
+  height: 100px;
+  margin-top: -5px;
+  font-size: 16px;
+  margin-left: 800px;
+}
+.Brought {
+  margin-bottom: 5px;
+  margin-top: 35px;
+  font-size: 16px;
+  margin-left: 80px;
+}
+
+.Copyright {
+  margin-top: 2px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+.tiktok {
+  margin-right: 10px;
+  color: white;
+  margin-left: 80px;
+}
+
+.tiktok:hover {
+  color: rgb(255, 40, 40);
+}
+
+.instagram {
+  margin-right: 15px;
+  color: white;
+}
+
+.instagram:hover {
+  color: rgb(255, 40, 40);
+}
+
+.youtube {
+  color: white;
+}
+
+.youtube:hover {
+  color: rgb(255, 40, 40);
+}
+
+.facebook {
+  margin-right: 15px;
+  color: white;
+}
+
+.facebook:hover {
+  color: rgb(255, 40, 40);
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+  width: 400px;
+  margin-left: 550px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.page1 {
+  width: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+
+  .profile-logo{
+    margin-right: -7px;
+  }
+
+  .icons-shop{
+    display: none;
+  }
+  .exlpore-more {
+    margin: 30px;
+  }
+  .picure-3,
+  .picure-4 {
+    display: none;
+  }
+
+  .picure-1:hover,
+  .picure-2:hover {
+    width: 380px;
+  }
+
+  .video-container3,
+  .video-container4,
+  .video-container5,
+  .video-container6 {
+    display: none;
+  }
+  .video-container,
+  .video-container2{
+    padding: 5px;
+    width: 28%;
+  }
+
+  .video-container:hover,
+  .video-container2:hover{
+    width: 30%;
+  }
+
+  .top-picks {
+    margin: 30px;
+  }
+
+  .box-container {
+    margin-bottom: 0;
+  }
+
+  .Mixing-price-container {
+    margin: 0;
+    margin-bottom: -2px;
+  }
+
+  .ending-page {
+    margin-top: 0;
+  }
+
+  .box-3,
+  .box-4 {
+    display: none;
+  }
+
+  .box-1,
+  .box-2 {
+    margin-left: 10px;
+    
+  }
+  .before{
+    font-size: 10px;
+   
+}
+.after{
+  font-size: 10px;
+ 
+}
+
+  .reel-frame {
+    justify-content: center;
+  }
+
+  .abt,
+  .about-samie,
+  .forme {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    
+  }
+
+
+ 
+  .about-samie,
+  .forme {
+    width: 370px;
+    margin: 15px;
+  
+  }
+  
+  .Brought {
+    font-size: 12px;
+    margin-left: 15px;
+   
+    
+  }
+  .Copyright {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+
+  .social-media {
+    margin-left: -60px;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: none;
+    gap: 20px;
+  }
+
+  .four {
+    margin-bottom: 50px;
+  }
+  .one {
+    margin-top: 50px;
+  }
+  .sec1-wrapper {
+    margin: 0;
+  }
+}
+
+
+
+
+@media (max-width: 900px) {
+  .picure-4 {
+    display: none;
+  }
+  .video-container,
+  .video-container2,
+  .video-container3{
+    width: 28%;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  .video-container:hover,
+  .video-container2:hover,
+  .video-container3:hover{
+    width: 30%;
+    
+   
+  }
+
+.video-container4,
+.video-container5,
+.video-container6{
+  display: none;
+}
+
+  .exlpore-more{
+    margin: 60px;
+    font-size: 60px;
+  }
+
+    .top-picks {
+    margin: 60px;
+    margin-bottom: 0;
+  }
+
+
+  .box-4 {
+    display: none;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 44%;
+    margin-left: 10px;
+  }
+
+  
+
+    .box-container {
+    margin-bottom: 0;
+  }
+
+    .Mixing-price-container {
+    margin: 0;
+    margin-bottom: -2px;
+  }
+
+
+  
+  .abt,
+  .about-samie,
+  .forme {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .about-samie,
+  .forme {
+    width: 370px;
+    margin: 15px;
+  }
+  .abt {
+    margin-left: 15px;
+  }
+
+  .Brought {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .Copyright {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+
+  .social-media {
+    margin-left: -60px;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: none;
+    gap: 20px;
+  }
+
+  .four {
+    margin-bottom: 50px;
+  }
+  .one {
+    margin-top: 50px;
+  }
+  .sec1-wrapper {
+    margin: 0;
+  }
+
+   .ending-page {
+    margin-top: 0;
+  }
+}
+
+
+
+
+@media (max-width: 1320px) {
+  .picure-4 {
+    display: none;
+  }
+
+
+  .video-container,
+    .video-container2,
+      .video-container3,
+        .video-container4{
+          width: 28%;
+        }
+
+          .video-container:hover,
+    .video-container2:hover,
+      .video-container3:hover,
+        .video-container4:hover{
+          width: 30%;
+        }
+
+  .video-container5{
+    display: none;
+  }
+
+    .box-4 {
+    display: none;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 30%;
+    margin-left: 10px;
+  }
+
+
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: none;
+    gap: 20px;
+  }
+
+  .four {
+    margin-bottom: 50px;
+  }
+  .one {
+    margin-top: 50px;
+  }
+  .sec1-wrapper {
+    margin: 0;
+  }
+
+
+    .abt,
+  .about-samie,
+  .forme {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .about-samie,
+  .forme {
+    width: 370px;
+    margin: 15px;
+  }
+  .abt {
+    margin-left: 15px;
+  }
+
+  .Brought {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .Copyright {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+
+  .social-media {
+    margin-left: -60px;
+  }
+
+  .image-container{
+    justify-content: center;
+  }
+
+
+}
+
+
+
